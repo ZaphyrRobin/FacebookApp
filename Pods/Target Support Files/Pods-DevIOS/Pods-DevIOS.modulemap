@@ -1,0 +1,6 @@
+framework module Pods_DevIOS {
+  umbrella header "Pods-DevIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

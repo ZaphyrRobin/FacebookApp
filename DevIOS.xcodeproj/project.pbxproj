@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0012DCBD1C651CD8006942D8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012DCBC1C651CD8006942D8 /* Post.swift */; };
 		00284FDD1C63D594003F2E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00284FDC1C63D594003F2E42 /* AppDelegate.swift */; };
 		00284FDF1C63D594003F2E42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00284FDE1C63D594003F2E42 /* ViewController.swift */; };
-		00284FE21C63D594003F2E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00284FE01C63D594003F2E42 /* Main.storyboard */; };
 		00284FE41C63D594003F2E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00284FE31C63D594003F2E42 /* Assets.xcassets */; };
 		00284FE71C63D594003F2E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00284FE51C63D594003F2E42 /* LaunchScreen.storyboard */; };
+		00284FFC1C63D657003F2E42 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00284FF81C63D62E003F2E42 /* NotoSans-Bold.ttf */; };
+		00284FFD1C63D657003F2E42 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00284FF91C63D62E003F2E42 /* NotoSans-BoldItalic.ttf */; };
+		00284FFE1C63D657003F2E42 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00284FFA1C63D62E003F2E42 /* NotoSans-Italic.ttf */; };
+		00284FFF1C63D657003F2E42 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00284FFB1C63D62E003F2E42 /* NotoSans-Regular.ttf */; };
+		002850011C63D89D003F2E42 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002850001C63D89D003F2E42 /* MaterialView.swift */; };
+		002850041C63D8EB003F2E42 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002850031C63D8EB003F2E42 /* Constants.swift */; };
+		002850061C63DEC9003F2E42 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002850051C63DEC9003F2E42 /* MaterialButton.swift */; };
+		0028500B1C63E1C4003F2E42 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028500A1C63E1C4003F2E42 /* MaterialTextField.swift */; };
+		002850161C63E571003F2E42 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002850131C63E571003F2E42 /* Bolts.framework */; };
+		002850171C63E571003F2E42 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002850141C63E571003F2E42 /* FBSDKCoreKit.framework */; };
+		002850181C63E571003F2E42 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002850151C63E571003F2E42 /* FBSDKLoginKit.framework */; };
+		0028501D1C63F3FD003F2E42 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028501C1C63F3FD003F2E42 /* DataService.swift */; };
+		002850211C6401E9003F2E42 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002850201C6401E9003F2E42 /* FeedVC.swift */; };
+		002850231C640243003F2E42 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002850221C640243003F2E42 /* PostCell.swift */; };
+		0050C1F41C6556E1004A566E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0050C1F31C6556E1004A566E /* Default-568h@2x.png */; };
+		0050C1F71C6571F6004A566E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0050C1F51C6571F6004A566E /* Main.storyboard */; };
+		5F4D54B3DC599EB20BE3461E /* Pods_DevIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C45BF21B52FC0782B3690C /* Pods_DevIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0012DCBC1C651CD8006942D8 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		00284FD91C63D594003F2E42 /* DevIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00284FDC1C63D594003F2E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00284FDE1C63D594003F2E42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00284FE11C63D594003F2E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00284FE31C63D594003F2E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00284FE61C63D594003F2E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00284FE81C63D594003F2E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00284FF81C63D62E003F2E42 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		00284FF91C63D62E003F2E42 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		00284FFA1C63D62E003F2E42 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		00284FFB1C63D62E003F2E42 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		002850001C63D89D003F2E42 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		002850031C63D8EB003F2E42 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		002850051C63DEC9003F2E42 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		0028500A1C63E1C4003F2E42 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		002850131C63E571003F2E42 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		002850141C63E571003F2E42 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		002850151C63E571003F2E42 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0028501C1C63F3FD003F2E42 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		002850201C6401E9003F2E42 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		002850221C640243003F2E42 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		0050C1F31C6556E1004A566E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0050C1F61C6571F6004A566E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C45BF21B52FC0782B3690C /* Pods_DevIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DBF989F97C2C84A5329F94 /* Pods-DevIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DevIOS/Pods-DevIOS.release.xcconfig"; sourceTree = "<group>"; };
+		E16C528D29A612276F7995C2 /* Pods-DevIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevIOS/Pods-DevIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002850161C63E571003F2E42 /* Bolts.framework in Frameworks */,
+				002850171C63E571003F2E42 /* FBSDKCoreKit.framework in Frameworks */,
+				002850181C63E571003F2E42 /* FBSDKLoginKit.framework in Frameworks */,
+				5F4D54B3DC599EB20BE3461E /* Pods_DevIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +78,11 @@
 		00284FD01C63D594003F2E42 = {
 			isa = PBXGroup;
 			children = (
+				0050C1F31C6556E1004A566E /* Default-568h@2x.png */,
 				00284FDB1C63D594003F2E42 /* DevIOS */,
 				00284FDA1C63D594003F2E42 /* Products */,
+				4B31A06C98532E0A6250A971 /* Pods */,
+				67191B60E5C418BEBD200585 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +97,102 @@
 		00284FDB1C63D594003F2E42 /* DevIOS */ = {
 			isa = PBXGroup;
 			children = (
+				002850191C63F379003F2E42 /* Services */,
+				0028500C1C63E52D003F2E42 /* Frameworks */,
+				002850021C63D8DB003F2E42 /* Util */,
+				00284FF11C63D5CA003F2E42 /* Modal */,
+				00284FF01C63D5C1003F2E42 /* Resources */,
+				00284FEF1C63D5B5003F2E42 /* View */,
+				00284FEE1C63D5AD003F2E42 /* Controller */,
 				00284FDC1C63D594003F2E42 /* AppDelegate.swift */,
-				00284FDE1C63D594003F2E42 /* ViewController.swift */,
-				00284FE01C63D594003F2E42 /* Main.storyboard */,
 				00284FE31C63D594003F2E42 /* Assets.xcassets */,
+				0050C1F51C6571F6004A566E /* Main.storyboard */,
 				00284FE51C63D594003F2E42 /* LaunchScreen.storyboard */,
 				00284FE81C63D594003F2E42 /* Info.plist */,
 			);
 			path = DevIOS;
+			sourceTree = "<group>";
+		};
+		00284FEE1C63D5AD003F2E42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00284FDE1C63D594003F2E42 /* ViewController.swift */,
+				002850201C6401E9003F2E42 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		00284FEF1C63D5B5003F2E42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				002850001C63D89D003F2E42 /* MaterialView.swift */,
+				0028500A1C63E1C4003F2E42 /* MaterialTextField.swift */,
+				002850051C63DEC9003F2E42 /* MaterialButton.swift */,
+				002850221C640243003F2E42 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		00284FF01C63D5C1003F2E42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00284FF81C63D62E003F2E42 /* NotoSans-Bold.ttf */,
+				00284FF91C63D62E003F2E42 /* NotoSans-BoldItalic.ttf */,
+				00284FFA1C63D62E003F2E42 /* NotoSans-Italic.ttf */,
+				00284FFB1C63D62E003F2E42 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		00284FF11C63D5CA003F2E42 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				0012DCBC1C651CD8006942D8 /* Post.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		002850021C63D8DB003F2E42 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				002850031C63D8EB003F2E42 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		0028500C1C63E52D003F2E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002850131C63E571003F2E42 /* Bolts.framework */,
+				002850141C63E571003F2E42 /* FBSDKCoreKit.framework */,
+				002850151C63E571003F2E42 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		002850191C63F379003F2E42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0028501C1C63F3FD003F2E42 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4B31A06C98532E0A6250A971 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E16C528D29A612276F7995C2 /* Pods-DevIOS.debug.xcconfig */,
+				A8DBF989F97C2C84A5329F94 /* Pods-DevIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67191B60E5C418BEBD200585 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C45BF21B52FC0782B3690C /* Pods_DevIOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00284FEB1C63D594003F2E42 /* Build configuration list for PBXNativeTarget "DevIOS" */;
 			buildPhases = (
+				2A3565C1CDDAA3ED869C9019 /* Check Pods Manifest.lock */,
 				00284FD51C63D594003F2E42 /* Sources */,
 				00284FD61C63D594003F2E42 /* Frameworks */,
 				00284FD71C63D594003F2E42 /* Resources */,
+				9340E1B772139B795F689CA5 /* Embed Pods Frameworks */,
+				6ED1AC3C6F386869B3EB177D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,41 +257,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00284FFC1C63D657003F2E42 /* NotoSans-Bold.ttf in Resources */,
+				00284FFD1C63D657003F2E42 /* NotoSans-BoldItalic.ttf in Resources */,
+				00284FFE1C63D657003F2E42 /* NotoSans-Italic.ttf in Resources */,
+				0050C1F71C6571F6004A566E /* Main.storyboard in Resources */,
+				00284FFF1C63D657003F2E42 /* NotoSans-Regular.ttf in Resources */,
+				0050C1F41C6556E1004A566E /* Default-568h@2x.png in Resources */,
 				00284FE71C63D594003F2E42 /* LaunchScreen.storyboard in Resources */,
 				00284FE41C63D594003F2E42 /* Assets.xcassets in Resources */,
-				00284FE21C63D594003F2E42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A3565C1CDDAA3ED869C9019 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6ED1AC3C6F386869B3EB177D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevIOS/Pods-DevIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9340E1B772139B795F689CA5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevIOS/Pods-DevIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00284FD51C63D594003F2E42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0028500B1C63E1C4003F2E42 /* MaterialTextField.swift in Sources */,
+				0028501D1C63F3FD003F2E42 /* DataService.swift in Sources */,
+				002850011C63D89D003F2E42 /* MaterialView.swift in Sources */,
 				00284FDF1C63D594003F2E42 /* ViewController.swift in Sources */,
+				002850211C6401E9003F2E42 /* FeedVC.swift in Sources */,
+				002850231C640243003F2E42 /* PostCell.swift in Sources */,
 				00284FDD1C63D594003F2E42 /* AppDelegate.swift in Sources */,
+				002850041C63D8EB003F2E42 /* Constants.swift in Sources */,
+				002850061C63DEC9003F2E42 /* MaterialButton.swift in Sources */,
+				0012DCBD1C651CD8006942D8 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00284FE01C63D594003F2E42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00284FE11C63D594003F2E42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00284FE51C63D594003F2E42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				00284FE61C63D594003F2E42 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0050C1F51C6571F6004A566E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0050C1F61C6571F6004A566E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -248,22 +443,34 @@
 		};
 		00284FEC1C63D594003F2E42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16C528D29A612276F7995C2 /* Pods-DevIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DevIOS",
+				);
 				INFOPLIST_FILE = DevIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.chongyaorobin.DevIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongyaorobin.DevIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		00284FED1C63D594003F2E42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DBF989F97C2C84A5329F94 /* Pods-DevIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DevIOS",
+				);
 				INFOPLIST_FILE = DevIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.chongyaorobin.DevIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongyaorobin.DevIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -287,6 +494,7 @@
 				00284FED1C63D594003F2E42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
